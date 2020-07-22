@@ -1,2 +1,5 @@
 game/cache
 game/saves
+log.txt
+*.rpyb
+*.rpyc
