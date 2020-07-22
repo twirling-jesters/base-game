@@ -17,8 +17,6 @@ label start2:
 
     stop music fadeout 1.5
 
-    show image "gui/main_menu.png"
-
     window hide
 
     scene black with Dissolve(1.5)
@@ -95,7 +93,7 @@ label trollOne:
 
     narrator "Oh look it's the best friendsim character."
 
-    play music "music/sample.mp3" loop
+    play music "audio/sample.mp3" loop
 
     show tagora neutral with moveinbottom
 
@@ -150,7 +148,7 @@ label trollOne:
 
             $ quick_menu = False
 
-            play music "music/game_over.mp3" fadeout 1.0 noloop
+            play music "audio/game_over.mp3" fadeout 1.0 noloop
 
             scene sample_ending with Dissolve(1.0)
 
@@ -170,7 +168,7 @@ label trollOne:
 
             $ quick_menu = False
 
-            play music "music/victory_jingle.mp3" fadeout 1.0 noloop
+            play music "audio/victory_jingle.mp3" fadeout 1.0 noloop
 
             scene sample_ending with Dissolve(1.0)
 
