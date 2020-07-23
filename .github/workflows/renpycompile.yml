@@ -30,3 +30,8 @@ jobs:
       env:
         SDL_AUDIODRIVER: dummy
         SDL_VIDEODRIVER: dummy
+    - name: Upload VN artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: distributions
+        path: friendsim-1.0-dists
