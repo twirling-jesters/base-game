@@ -34,4 +34,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: distributions
-        path: friendsim-1.0-dists
+        path: homestuck-ngp-0.0.1-dists
