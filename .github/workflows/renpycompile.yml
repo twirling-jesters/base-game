@@ -29,4 +29,4 @@ jobs:
         project-dir: '.'
       env:
         SDL_AUDIODRIVER: dummy
-        SDL_VIDEODRIVER: dummy
+        SDL_VIDEODRIVER: x11
