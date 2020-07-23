@@ -30,6 +30,8 @@ jobs:
       env:
         SDL_AUDIODRIVER: dummy
         SDL_VIDEODRIVER: dummy
+    - run: pwd
+    - run: ls
   upload: 
     runs-on: ubuntu-latest
     needs: build
