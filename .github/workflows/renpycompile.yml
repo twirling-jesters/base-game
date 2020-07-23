@@ -15,7 +15,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -25,8 +25,8 @@ jobs:
     - name: Build VN project
       uses: ProjectAliceDev/renpy-build-action@master
       with:
-        sdk-version: '6.99.12.4'
-        project-dir: '.'
+        sdk-version: '7.3.5'
+        project-dir: '/game'
       env:
         SDL_AUDIODRIVER: dummy
-        SDL_VIDEODRIVER: x11
+        SDL_VIDEODRIVER: dummy
