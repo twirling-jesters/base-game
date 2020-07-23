@@ -11,7 +11,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("friendsim")
+define config.name = _("Homestuck NG+")
 
 ## Determines if the title given above is shown on the main menu screen. Set
 ## this to False to hide the title.
@@ -20,7 +20,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "1.0"
+define config.version = "0.0.1"
 
 ## Text that is placed on the game's about screen. To insert a blank line
 ## between paragraphs, write \n\n.
@@ -31,7 +31,7 @@ define gui.about = _("")
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "friendsim"
+define build.name = "homestuck-ngp"
 
 ## Sounds and music ############################################################
 
@@ -52,7 +52,7 @@ define config.has_voice = True
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
-define config.main_menu_music = "music/datingsimtitlehvs.wav"
+define config.main_menu_music = "audio/datingsimtitlehvs.wav"
 
 ## Transitions #################################################################
 ##
@@ -119,7 +119,7 @@ default preferences.afm_time = 15
 ## This generally should not be changed, and if it is, should always be a
 ## literal string, not an expression.
 
-define config.save_directory = "friendsim-1532512369"
+define config.save_directory = "hsngp"
 
 ## Icon ########################################################################
 ##
